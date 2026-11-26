@@ -14,9 +14,7 @@ const STATUS_PRIORITY = {
 export default function useWordle() {
 
   // Required states.
-  const [solutionWord, setSolutionWord] = useState(
-  () => getRandomWord()
-);
+  const [solutionWord, setSolutionWord] = useState("CRANE");
 
   const [currentGuess, setCurrentGuess] = useState("");
 
